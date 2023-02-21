@@ -1,0 +1,658 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;	
+}
+.container{
+	max-width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	background: #fff;
+	border-bottom: 2px solid #eee;
+}
+.header .menu{
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: right;
+	text-transform: capitalize;
+}
+.header .menu li{
+	display: inline-block;
+	list-style: none;
+}
+.header .menu li a{
+	display: block;
+	margin: 11px 0px 0px 20px;
+	color: #2F2E40;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 50px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #2F2E40;
+	margin: 0px 0px 20px;
+}
+.banner h1 span{
+	color: #39A4FF;
+}
+.banner p{
+	font-size: 14px;
+	line-height: 1.7em;
+	margin: 0px 0px 20px
+}
+.banner .banner-img{
+	width: 50%;
+}
+.banner-2{
+	width: 100%;
+	float: left;
+	padding: 10px 0px 40px;
+}
+.banner-2left{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin: 0px 0px 0px 10px;
+}
+.banner-2left h1{
+	font-size: 50px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #F14D5D;
+	margin: 0px 15px 10px 0px;
+}
+.banner-2left p{
+	font-size: 14px;
+	line-height: 1.7em;
+	margin: 0px 15px 0px 0px;
+}
+.banner-2right{
+	width: 100%;
+	float: left;
+}
+.banner-2right h1{
+	font-size: 50px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #2F2E40;
+	margin: 0px 0px 0px 10px;
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 10px 0px 40px;
+	margin: 40px 0px 20px;
+}
+.inner-feature{
+	width: 83%;
+	float: left;
+	padding: 60px 23px;
+	background: #eee;
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+}
+.inner-feature h3{
+	font-size: 18px;
+	font-weight: 600;
+	color: #2F2E40;
+	margin: 5px 0px 10px;
+}
+.inner-feature p{
+	font-size: 14px;
+	color: #2F2E40;
+}
+.bg-1{
+	background: #FDEBED;
+}
+.bg-2{
+	background: #EBF9F4;
+}
+.bg-3{
+	background: #FFF7E8;
+} 
+  
+
+/*  landings.css goes here*/
+	.banner-bg1{
+		background: #eee;
+	}
+	.banner-3{
+		width: 100%;
+		float: left;
+		text-align: center;
+		background: pink;
+		padding: 20px 0px;
+	}
+	.banner-3 h1{
+	font-size: 50px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: red;
+	margin: 10px 0px 20px;
+	}
+	.banner-3 img{
+		width: 80%;
+		border-radius: 50%;
+		margin: 20px 0px 20px;
+	}
+	.banner-3 p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #eee;
+	margin: 0px 0px 40px;
+	}
+
+
+
+
+
+
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008DFF;
+    text-align: center;
+}
+.footer p{
+	font-size: 14px;
+    line-height: 1.7em;
+    color: #E6E6E6;
+}
+.footer p a{
+ 	color: #fff;
+ 	font-weight: 600;
+ 	letter-spacing: 2px;
+}
+.footer p a:hover{
+	color: #000;
+}
+
+
+/*css media query goes here*/
+
+@media (min-width: 279px) and (max-width: 319px){
+/*css start*/
+	.container{
+		max-width: 90%;
+		margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+	.logo{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.header .menu{
+		display: block;
+		text-align: center;
+		font-size: 10px;
+	}
+	.header .menu li a{
+   		 margin: 8px 7px 0px 7px
+	}
+	.banner{
+		padding: 30px 0px;
+	}
+	.banner h1{
+	    font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner p{
+		font-size: 10px;
+	}
+	.banner .banner-img {
+   		 width: 65%;
+	}
+	.banner-2{
+		padding: 10px 0px 0px;
+	}
+	.banner-2left{
+	    text-align: center;
+	    margin: 0px;
+	}
+	.banner-2left h1{
+	    font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	    margin: 0px;
+
+	}
+	.banner-2left p{
+	    font-size: 9px;
+	    line-height: 1.7em;
+	    margin: 0px 15px 0px 0px;
+	    margin: 0px;
+
+	}
+	.banner-2right{
+		text-align: center;
+	    padding: 20px 0px 0px;
+	}
+	.banner-2right h1{
+	    font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	    margin: 0px;
+	}
+	.feature{
+		padding: 10px 0px 10px;
+	}
+	.inner-feature {
+	    width: 81%;
+	    margin: 0px 0px 20px;
+	    text-align: center;
+	}
+	.inner-feature h3 {
+	    font-size: 12px;
+	    font-weight: 500;
+	}
+	.inner-feature p {
+		font-size: 9px;
+	}
+	.banner-3 h1{
+		font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner-3 p{
+		font-size: 9px;
+	    line-height: 1.7em;
+	}
+	.footer{
+		padding: 14px 0px;
+	}
+	.footer p{
+		font-size: 10px;	
+	}
+/*css end*/
+}
+@media (min-width: 320px) and (max-width: 480px){
+/*css start*/
+	.container{
+		max-width: 90%;
+		margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+	.logo{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.header .menu{
+		display: block;
+		text-align: center;
+	}
+	.header .menu li a{
+	    margin: 11px 8px 0px 8px;
+	}
+	.banner{
+		padding: 30px 0px;
+	}
+	.banner h1{
+	    font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner p{
+		font-size: 12px;
+	}
+	.banner .banner-img {
+   		 width: 65%;
+	}
+	.banner-2{
+		padding: 10px 0px 0px;
+	}
+	.banner-2left{
+   		 text-align: center;
+	}
+	.banner-2left h1{
+	    font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner-2left p{
+	    font-size: 12px;
+	    line-height: 1.7em;
+	    margin: 0px 15px 0px 0px;
+	}
+	.banner-2right{
+		text-align: center;
+	    padding: 20px 0px 0px;
+	}
+	.banner-2right h1{
+	    font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.feature{
+		padding: 10px 0px 10px;
+	}
+	.inner-feature {
+	    width: 86%;
+	    margin: 0px 0px 20px;
+        padding: 90px 23px 60px;
+	    text-align: center;
+	}
+	.inner-feature h3 {
+	    font-size: 14px;
+	    font-weight: 500;
+	}
+	.inner-feature p {
+		font-size: 12px;
+	}
+	.banner-3 h1{
+	    font-size: 27px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner-3 p{
+		font-size: 12px;
+		line-height: 1.7em;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer p{
+		font-size: 12px;	
+	}
+
+/*css end*/
+}
+@media (min-width: 481px) and (max-width: 767px){
+/*css start*/
+	.container{
+		max-width: 90%;
+		margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+	.logo{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.header{
+		padding: 15px 0px 10px;
+	}
+	.header .menu{
+		display: block;
+		text-align: center;
+		font-size: 14px;
+	}
+	.header .menu li a{
+	    margin: 11px 15px 0px 15px;
+	}
+	.banner{
+		padding: 30px 0px;
+	}
+	.banner h1{
+	    font-size: 34px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner p{
+		font-size: 14px;
+	}
+	.banner .banner-img {
+    	width: 66%;
+	}
+	.banner-2{
+		padding: 10px 0px 0px;
+	}
+	.banner-2left{
+    	text-align: center;
+	}
+	.banner-2left h1{
+	    font-size: 34px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner-2left p{
+	    font-size: 14px;
+	    line-height: 1.7em;
+	    margin: 0px 15px 0px 0px;
+	}
+	.banner-2right{
+		text-align: center;
+	    padding: 20px 0px 0px;
+	}
+	.banner-2right h1{
+	    font-size: 34px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner-2right p{
+		font-size: 14px;
+		line-height: 1.7em;
+	}
+	.feature{
+		padding: 10px 0px 10px;
+	}
+	.inner-feature {
+	    width: 90%;
+	    padding: 80px 25px 60px;
+	    text-align: center;
+	    margin: 0px 0px 20px;
+	}
+	.inner-feature h3 {
+	    font-size: 16px;
+	    font-weight: 500;
+	    margin: 15px 0px 10px;
+	}
+	.inner-feature p {
+		font-size: 14px;
+	}
+	.banner-3 h1{
+	    font-size: 34px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer p{
+		font-size: 14px;	
+	}
+/*css end*/
+}
+@media (min-width: 768px) and (max-width: 1024px){
+/*css start*/
+	.container{
+		max-width: 90%;
+		margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+	.logo{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.header{
+		padding: 20px 0px 10px;
+	}
+	.header .menu{
+		display: block;
+		text-align: center;
+		font-size: 16px;
+	}
+	.header .menu li a {
+   		 margin: 15px 25px 0px 25px;
+}
+	.banner{
+		padding: 30px 0px;
+	}
+	.banner h1{
+	    font-size: 45px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner p{
+		font-size: 15px;
+		margin: 0px 0px 30px;
+	}
+	.banner .banner-img {
+   		 width: 65%;
+	}
+	.banner-2{
+		padding: 10px 0px 0px;
+	}
+	.banner-2left{
+    	text-align: center;
+	}
+	.banner-2left h1{
+	    font-size: 45px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner-2left p{
+	    font-size: 15px;
+	    line-height: 1.7em;
+	    margin: 0px 15px 0px 0px;
+	}
+	.banner-2right{
+		text-align: center;
+	    padding: 20px 0px 0px;
+	}
+	.banner-2right h1{
+	    font-size: 45px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.feature{
+		padding: 10px 0px 10px;
+	}
+	.inner-feature {
+    width: 90%;
+    margin: 0px 0px 40px;
+    padding: 115px 40px 80px;
+    text-align: center;
+	}
+	.inner-feature h3 {
+	    font-size: 18px;
+	    font-weight: 500;
+	    margin: 15px 0px 10px;
+	}
+	.inner-feature p {
+		font-size: 15px;
+	}
+	.banner-3 h1{
+	    font-size: 45px;
+	    line-height: 1.4em;
+	    font-weight: 600;
+	}
+	.banner-3 p{
+	    font-size: 15px;
+	    line-height: 1.7em;
+	}
+	.footer p{
+		font-size: 16px;	
+	}
+/*css end*/
+}
